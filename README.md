@@ -71,7 +71,10 @@ The project combines established security tools with custom Python scripts to pe
 - Summary of software components and vulnerability findings.
 - Tables and visualisations for assessment results.
 
+
 # Project Structure
+
+```text
 SecureScope/
 │
 ├── app.py
@@ -91,7 +94,6 @@ SecureScope/
 ├── src/
 │   ├── sbom/
 │   │   └── analyze_sbom.py
-│   │
 │   └── vulnerability/
 │       └── analyze_vulnerabilities.py
 │
@@ -105,22 +107,21 @@ SecureScope/
 │
 ├── reports/
 │   ├── sbom_components.csv
-|   ├── zap_baseline_report.html
+│   ├── zap_baseline_report.html
 │   └── vulnerability_report.csv
 │
 ├── evidence/
 │   ├── exercise-01/
 │   ├── exercise-02/
 │   ├── exercise-03/
-│   ├── exercise-04.session
-|   ├── exercise-04.session.data
-|   ├── exercise-04.session
-|   ├── exercise-04.session.script
+│   ├── exercise-04/
 │   ├── exercise-05/
 │   ├── exercise-06/
 │   └── exercise-09/
 │
 └── tests/
+```
+
 
 # Installation and Setup
 
